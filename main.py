@@ -1,7 +1,7 @@
 from diaries.DiarySample import DiarySample
 
 diaries = [
-    DiarySample,
+    DiarySample(),
     ]
 
 for d in diaries:
