@@ -1,7 +1,9 @@
 from diaries.DiarySample import DiarySample
+from diaries.TakabayashiDiary import TakabayashiDiary
 
 diaries = [
-    DiarySample,
+    DiarySample(),
+    TakabayashiDiary(),
     ]
 
 for d in diaries:
