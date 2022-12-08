@@ -1,8 +1,10 @@
 from diaries.DiarySample import DiarySample
+from diaries.SudaDiary import SudaDiary
 
 diaries = [
     DiarySample(),
-    ]
+    SudaDiary(),
+]
 
 for d in diaries:
     print("--------------------------------")
