@@ -1,8 +1,10 @@
 from diaries.DiarySample import DiarySample
 from diaries.WakouDiary import WakouDiary
+from diaries.MomokaDiary import MomokaDiary
 
 diaries = [
     DiarySample(),
+    MomokaDiary(),
     WakouDiary(),
     ]
 
